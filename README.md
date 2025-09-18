@@ -43,6 +43,7 @@ Detects objects in images and videos, with configurable model weights, class lab
   
   ## Image Detection & Accuracy detection:
   ![Detected Image](https://github.com/user-attachments/assets/eafc5ff9-9fb2-4a48-8c4d-0849f128b0cf)
+  
   ![image](https://github.com/user-attachments/assets/827edd78-bf17-4493-a7bc-20e6069be06c)
   
   ## Video Detection:
