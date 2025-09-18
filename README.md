@@ -31,21 +31,21 @@ Detects objects in images and videos, with configurable model weights, class lab
 - **yoloDetection.py**  
   Provides helper functions to process images/videos: builds input blobs, runs forward passes through the CNN, filters bounding boxes, and draws predictions.
 
-  ### Example Commands
+  # Example Commands
   
-  # Detect objects in an image
+  ## Detect objects in an image
   - python yolo.py image test.png
     
-  # Detect objects in a video
+  ## Detect objects in a video
   - python yolo.py video video5.mp4
  
   # Results Preview
   
-  ### Image Detection & Accuracy detection:
+  ## Image Detection & Accuracy detection:
   ![Detected Image](https://github.com/user-attachments/assets/eafc5ff9-9fb2-4a48-8c4d-0849f128b0cf)
   ![image](https://github.com/user-attachments/assets/827edd78-bf17-4493-a7bc-20e6069be06c)
   
-  ### Video Detection:
+  ## Video Detection:
   ![image](https://github.com/user-attachments/assets/661aeb1c-b5b3-4400-b597-593e685614e6)
 
   ## Contributing
