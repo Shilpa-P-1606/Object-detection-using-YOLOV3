@@ -19,7 +19,6 @@ def loadLibraries(): #function to load yolov3 model weight and class labels
         cnn_model = cv.dnn.readNetFromDarknet('yolov3.cfg', 'yolov3.weights') #reading model
         cnn_layer_names = cnn_model.getLayerNames() #getting layers from cnn model
         cnn_layer_names = [cnn_layer_names[i-1] for i in cnn_model.getUnconnectedOutLayers()] #assigning all layers
-cd "C:\Users\DELL\OneDrive\Desktop\project_files\yolov3model"
 def detectFromImage(imagename): #function to detect object from images
         #random colors to assign unique color to each label
         label_colors = np.random.randint(0,255,size=(len(class_labels),3),dtype='uint8')
